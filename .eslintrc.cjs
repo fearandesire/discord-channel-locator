@@ -34,6 +34,7 @@ module.exports = {
 			files: ['./**/*.{ts,tsx}'],
 			rules: {
 				'@typescript-eslint/require-await': 'off',
+				'operator-linebreak': 'off',
 				'class-methods-use-this': 'off',
 				'import/extensions': 'off',
 				'import/prefer-default-export': 'off',
