@@ -11,7 +11,10 @@ import { Client, Channel, GuildChannel } from 'discord.js'
 async function locator(cli: Client, searchFor: string): Promise<Channel> {
 	const chan = cli.channels.cache.find((c) => {
 		if (c instanceof GuildChannel) {
-			return c.name === searchFor || c.id === searchFor.toString()
+			return (
+				c.name.toLowerCase() === searchFor.toString().toLowerCase() ||
+				c.id === searchFor.toString()
+			)
 		}
 		return false
 	})
