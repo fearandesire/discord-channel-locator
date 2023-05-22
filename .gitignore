@@ -1,5 +1,5 @@
-# Custom
-.dist/**
+# TS Output
+src/dist/**
 
 # Logs
 logs
