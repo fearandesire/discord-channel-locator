@@ -1,6 +1,6 @@
 {
 	"name": "discord-channel-locator",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "module",
 	"description": "Locate Discord Channels via name or ID",
 	"main": "./dist/index.js",

@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1] - 2023-05-23
+
+## Changed
+
+Bumped version for package to be published to NPM 😁
+
 ## [1.0.0] - 2023-05-22
 
 ### Added
